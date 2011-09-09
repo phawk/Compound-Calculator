@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E7CE8D141AD945006B363C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E7CE8C141AD945006B363C /* Cocoa.framework */; };
+		C1E7CE97141AD945006B363C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E7CE95141AD945006B363C /* InfoPlist.strings */; };
+		C1E7CE99141AD945006B363C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E7CE98141AD945006B363C /* main.m */; };
+		C1E7CE9D141AD945006B363C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1E7CE9B141AD945006B363C /* Credits.rtf */; };
+		C1E7CEA0141AD945006B363C /* Compound_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */; };
+		C1E7CEA3141AD945006B363C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E7CEA1141AD945006B363C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1E7CE88141AD945006B363C /* Compound Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compound Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E7CE8C141AD945006B363C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1E7CE8F141AD945006B363C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C1E7CE90141AD945006B363C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1E7CE91141AD945006B363C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1E7CE94141AD945006B363C /* Compound Calculator-Info.plist */ = {isa = PBXFileReference; path = "Compound Calculator-Info.plist"; sourceTree = "<group>"; };
+		C1E7CE96141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1E7CE98141AD945006B363C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1E7CE9A141AD945006B363C /* Compound Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Compound Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		C1E7CE9C141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C1E7CE9E141AD945006B363C /* Compound_CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = Compound_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Compound_CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		C1E7CEA2141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E7CE85141AD945006B363C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E7CE8D141AD945006B363C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E7CE7D141AD945006B363C = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE92141AD945006B363C /* Compound Calculator */,
+				C1E7CE8B141AD945006B363C /* Frameworks */,
+				C1E7CE89141AD945006B363C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E7CE89141AD945006B363C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE88141AD945006B363C /* Compound Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E7CE8B141AD945006B363C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE8C141AD945006B363C /* Cocoa.framework */,
+				C1E7CE8E141AD945006B363C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E7CE8E141AD945006B363C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE8F141AD945006B363C /* AppKit.framework */,
+				C1E7CE90141AD945006B363C /* CoreData.framework */,
+				C1E7CE91141AD945006B363C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C1E7CE92141AD945006B363C /* Compound Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE9E141AD945006B363C /* Compound_CalculatorAppDelegate.h */,
+				C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */,
+				C1E7CEA1141AD945006B363C /* MainMenu.xib */,
+				C1E7CE93141AD945006B363C /* Supporting Files */,
+			);
+			path = "Compound Calculator";
+			sourceTree = "<group>";
+		};
+		C1E7CE93141AD945006B363C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7CE94141AD945006B363C /* Compound Calculator-Info.plist */,
+				C1E7CE95141AD945006B363C /* InfoPlist.strings */,
+				C1E7CE98141AD945006B363C /* main.m */,
+				C1E7CE9A141AD945006B363C /* Compound Calculator-Prefix.pch */,
+				C1E7CE9B141AD945006B363C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E7CE87141AD945006B363C /* Compound Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E7CEA6141AD945006B363C /* Build configuration list for PBXNativeTarget "Compound Calculator" */;
+			buildPhases = (
+				C1E7CE84141AD945006B363C /* Sources */,
+				C1E7CE85141AD945006B363C /* Frameworks */,
+				C1E7CE86141AD945006B363C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compound Calculator";
+			productName = "Compound Calculator";
+			productReference = C1E7CE88141AD945006B363C /* Compound Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E7CE7F141AD945006B363C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = phawk;
+			};
+			buildConfigurationList = C1E7CE82141AD945006B363C /* Build configuration list for PBXProject "Compound Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1E7CE7D141AD945006B363C;
+			productRefGroup = C1E7CE89141AD945006B363C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E7CE87141AD945006B363C /* Compound Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E7CE86141AD945006B363C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E7CE97141AD945006B363C /* InfoPlist.strings in Resources */,
+				C1E7CE9D141AD945006B363C /* Credits.rtf in Resources */,
+				C1E7CEA3141AD945006B363C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E7CE84141AD945006B363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E7CE99141AD945006B363C /* main.m in Sources */,
+				C1E7CEA0141AD945006B363C /* Compound_CalculatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1E7CE95141AD945006B363C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E7CE96141AD945006B363C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1E7CE9B141AD945006B363C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E7CE9C141AD945006B363C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C1E7CEA1141AD945006B363C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E7CEA2141AD945006B363C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E7CEA4141AD945006B363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1E7CEA5141AD945006B363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1E7CEA7141AD945006B363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compound Calculator/Compound Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Compound Calculator/Compound Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1E7CEA8141AD945006B363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compound Calculator/Compound Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Compound Calculator/Compound Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E7CE82141AD945006B363C /* Build configuration list for PBXProject "Compound Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E7CEA4141AD945006B363C /* Debug */,
+				C1E7CEA5141AD945006B363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E7CEA6141AD945006B363C /* Build configuration list for PBXNativeTarget "Compound Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E7CEA7141AD945006B363C /* Debug */,
+				C1E7CEA8141AD945006B363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E7CE7F141AD945006B363C /* Project object */;
+}
