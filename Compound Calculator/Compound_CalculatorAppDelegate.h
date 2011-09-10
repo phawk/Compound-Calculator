@@ -10,8 +10,20 @@
 
 @interface Compound_CalculatorAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSTextField *DepositBox;
+    NSTextField *InterestBox;
+    NSTextField *TermBox;
+    NSTextField *TotalLabel;
+    NSView *mainView;
 }
 
+- (IBAction)CalculateNow:(id)sender;
+
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *DepositBox;
+@property (assign) IBOutlet NSTextField *InterestBox;
+@property (assign) IBOutlet NSTextField *TermBox;
+@property (assign) IBOutlet NSTextField *TotalLabel;
+@property (assign) IBOutlet NSView *mainView;
 
 @end

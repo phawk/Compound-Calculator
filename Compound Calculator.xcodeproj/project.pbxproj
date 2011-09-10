@@ -13,6 +13,7 @@
 		C1E7CE9D141AD945006B363C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1E7CE9B141AD945006B363C /* Credits.rtf */; };
 		C1E7CEA0141AD945006B363C /* Compound_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */; };
 		C1E7CEA3141AD945006B363C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E7CEA1141AD945006B363C /* MainMenu.xib */; };
+		C1E7CEAD141AE357006B363C /* CompCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E7CEAC141AE357006B363C /* CompCalc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		C1E7CE8F141AD945006B363C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C1E7CE90141AD945006B363C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C1E7CE91141AD945006B363C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C1E7CE94141AD945006B363C /* Compound Calculator-Info.plist */ = {isa = PBXFileReference; path = "Compound Calculator-Info.plist"; sourceTree = "<group>"; };
+		C1E7CE94141AD945006B363C /* Compound Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Compound Calculator-Info.plist"; sourceTree = "<group>"; };
 		C1E7CE96141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1E7CE98141AD945006B363C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1E7CE9A141AD945006B363C /* Compound Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Compound Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		C1E7CE9A141AD945006B363C /* Compound Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Compound Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		C1E7CE9C141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C1E7CE9E141AD945006B363C /* Compound_CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = Compound_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		C1E7CE9E141AD945006B363C /* Compound_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compound_CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Compound_CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		C1E7CEA2141AD945006B363C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C1E7CEAB141AE357006B363C /* CompCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompCalc.h; sourceTree = "<group>"; };
+		C1E7CEAC141AE357006B363C /* CompCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompCalc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				C1E7CE9F141AD945006B363C /* Compound_CalculatorAppDelegate.m */,
 				C1E7CEA1141AD945006B363C /* MainMenu.xib */,
 				C1E7CE93141AD945006B363C /* Supporting Files */,
+				C1E7CEAB141AE357006B363C /* CompCalc.h */,
+				C1E7CEAC141AE357006B363C /* CompCalc.m */,
 			);
 			path = "Compound Calculator";
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			files = (
 				C1E7CE99141AD945006B363C /* main.m in Sources */,
 				C1E7CEA0141AD945006B363C /* Compound_CalculatorAppDelegate.m in Sources */,
+				C1E7CEAD141AE357006B363C /* CompCalc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
